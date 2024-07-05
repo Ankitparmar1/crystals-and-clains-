@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <title>Document</title>
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="main">
+      <div class="cursor"></div>
+      <div id="nav">
+         <div id="navleft">
+            <a class="span" href="./index.html">Home</a>
+            <a class="span" href="./product01/pro1.html">Shop</a>
+            <a class="span" href="./Blog-section/blog.html">Blog</a>
+         </div>
+         <div id="navcenter">
+            <img src="./img/logoimg.png" alt="" height="100%" width="100%">
+         </div>
+         <div id="navright">
+            <div class="div-heart">
+               <img src="./img/heart-fill.png" alt="" height="30px" width="30px">
+            </div>
+            <div class="div-cart">
+               <img src="./img/shopping-cart-2-line.png" alt="" height="30px" width="30px">
+            </div>
+            <div class="circle-div"><a href=""><img src="./img/pngwing.com.png" alt="" height="40px" width="40px"></a>
+            </div>
+         </div>
+      </div>
+      <div class="wrap">
+         <div class="search">
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <i class="fa fa-search"></i>
+            </button>
+         </div>
+      </div>
+      <div class="popup">
+         <div class="img-popup">
+            <div class="form-container">
+               <div class="singn-login"><a href="../singnup/singn.html">
+                     <a href=""
+                        style=" text-decoration: none; position: absolute; margin-top: -15%; font-size: 60px; font-family: fantasy; margin-left: 10%;">
+                        <h6>SingnUp</h6>
+                     </a>
+                  </a>
+                  <a href="../login/login.html">
+                     <a href=""
+                        style=" text-decoration: none; position: absolute; margin-top: -15%; font-size: 40px; font-family: fantasy; margin-left: -30%;">
+                        <h4>Login</h4>
+                     </a>
+               </div></a>
+               <h5>Sign up & get Rs. 500 off* coupon code for your first purchase!</h5>
+               <form action="submitsignup" method="post">
+                  <div class="form-group">
+                     <input type="text" placeholder="Name" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                     <input type="email" placeholder="Email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                     <input type="tel" id="phone" placeholder="Phone" name="phone" required>
+                  </div>
+                  <div class="form-group">
+                     <input type="password" placeholder="Password" id="password" name="password" required>
+                  </div>
+                  <div class="form-group">
+                     <input type="password" id="confirm-password" placeholder="Confirm-password" name="confirm-password"
+                        required>
+                  </div>
+                  <div class="form-group">
+                     <input type="checkbox" id="terms" name="terms" required>
+                     <label for="terms">agree to the Terms of use and Privacy Statement</label>
+                  </div>
+                  <button style="position: absolute; margin-left: -5%;" type="submit">Sign Up</button>
+               </form>
+               <p>Already have an account? <a href="../login/login.html">Login now</a></p>
+            </div>
+            <div class="right-img">
+               <img src="./img/login.jpg" alt="" height="100%" width="100%">
+            </div>
+         </div>
+         <button style="height: 20px; width: 20px; display: flex;align-items: center; z-index: 999;
+           justify-content: center; position: absolute; margin-left: 83%; margin-top: -65%;"
+            id="close">&times;</button>
+      </div>
+      <div id="page1">
+         <div class="img-div1">
+            <!-- Image Carousel -->
+            <div class="slide"><img src="./img/b1111.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="./img/b19.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="./img/b11.png" alt="Image 2"></div>
+            <!-- Add more slides as needed -->
+         </div>
+         <div class="img-div2">
+            <div class="div3-slide"> <img src="./img/b1.jpg" alt="" height="100%" width="100%"> </div>
+            <div class="div3-slide"><img src="./img/ring13.webp" alt="" height="100%" width="100%"></div>
+            <div class="div3-slide"><img src="./img/rings1.jpg" alt="" height="100%" width="100%"></div>
+            <div class="div3-slide"><img src="./img/ring.webp" alt="" height="100%" width="100%"></div>
+         </div>
+         <div class="img-div3">
+            <img src="./img/gbracelet.webp" alt="" height="100%" width="100%">
+         </div>
+      </div>
+      <div id="page2">
+         <div class="txt1-page2" style="margin-top: -50%;">Browse By Category</div>
+         <div class="txt2-page2" style="margin-top: -40%;">Discover elegance at your fingertips</div>
+         <div class="cards" style="background-color: #fff;">
+            <div class="card">
+               <img class="card__image" src="./img/j14.jpeg" alt="image description"
+                  style=" box-shadow: 15px 15px 5px#FED7BA">
+               <div class="card__content">
+                  <a href="">
+                     <h2 class="card__title">GEMSTONE</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/j11.jpeg" alt="image description">
+               <div class="card__content">
+                  <a href="">
+                     <h2 class="card__title">DIAMOND</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/j12.jpeg" alt="image description">
+               <div class="card__content">
+                  <a href="">
+                     <h2 class="card__title">GOLD</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/j13.jpeg" alt="image description"
+                  style=" box-shadow: 15px 15px 5px#FED7BA">
+               <div class="card__content">
+                  <a href="">
+                     <h2 class="card__title">PLATINUM</h2>
+                  </a>
+               </div>
+            </div>
+
+         </div>
+      </div>
+      <div id="page3">
+         <div class="txt1-page3">Browse By Category</div>
+         <div class="txt2-page3">Discover elegance at your fingertips</div>
+         <div class="logo-img3"><img src="./img/Line-Design.svg" alt="" width="100%"></div>
+         <div class="cards">
+            <div class="card">
+               <img class="card__image" src="./img/coin.jpg" alt="image description">
+               <div class="card__content">
+                  <a href="./coins.html/coin.html">
+                     <h2 class="card__title">Coins</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/new-earrings.jpg" alt="image description">
+               <div class="card__content">
+                  <a href="">
+                     <a href="./product4/pro.html">
+                        <h2 class="card__title">Ear Rings</h2>
+                     </a>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/bracelet.webp" alt="image description">
+               <div class="card__content">
+                  <a href="./bracelet/bra.html">
+                     <h2 class="card__title">Bracelet</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/bangem.jpg" alt="image description">
+               <div class="card__content">
+                  <a href="./bangles/ban.html">
+                     <h2 class="card__title">Bangles</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/new-necklace.webp" alt="image description">
+               <div class="card__content">
+                  <a href="./Neclace/nec.html">
+                     <h2 class="card__title">Necklace</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/new-nose-pins.webp" alt="image description">
+               <div class="card__content">
+                  <a href="./bridal-section1/bri.html">
+                     <h2 class="card__title">Nose Pines</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/new-finger-rings.webp" alt="image description">
+               <div class="card__content">
+                  <a href="./product5/pro5.html">
+                     <h2 class="card__title">Rings</h2>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <img class="card__image" src="./img/new-pendant-sets.jpg" alt="image description">
+               <div class="card__content">
+                  <a href="./product4/pro.html">
+                     <h2 class="card__title">Pendent</h2>
+                  </a>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+      <div id="page4">
+         <div class="txt1-page4">Browse By Category</div>
+         <div class="txt2-page4">Discover elegance at your fingertips</div>
+         <div class="logo-img2"><img src="./img/Line-Design.svg" alt="" width="100%"></div>
+         <div class="page4-card">
+            <div class="card1">
+               <a href="">Enchanting</a>
+               <img src="./img/8_Mararashtrian.png" alt="">
+            </div>
+            <div class="card2">
+               <a href="">Enchanting</a>
+               <img src="./img/12_gujarati.png" alt="" srcset="">
+            </div>
+            <div class="card3">
+               <a href="">Enchanting</a>
+               <img src="./img/show-stopper.png" alt="" srcset="">
+            </div>
+         </div>
+         <div class="grey-color-page">
+
+         </div>
+      </div>
+      <div id="page5">
+         <main class="carousel-container">
+            <div class="carousel">
+               <div class="item active">
+                  <img src="./img/Rivaah-Bride.jpg" alt="Image 1" />
+               </div>
+               <div class="item">
+                  <img src="./img/card5.jpg" alt="Image 2" />
+               </div>
+               <div class="item">=
+                  <img src="./img/gc.jpg" alt="Image 3" />
+               </div>
+            </div>
+            <button style="position: absolute; margin-left: 80%;" class="btn prev">Prev</button>
+            <button style="position: absolute; margin-left: -13%;" class="btn next">Next</button>
+            <div class="dots"></div>
+         </main>
+      </div>
+      <div id="page6">
+         <div class="txt1-page6">Shop By Gender</div>
+         <div class="txt2-page6">First-class jewelry for first-class Men, Women & Children.</div>
+         <div class="page6-card1">
+            <img src="./img/men.jpg" alt="">
+            <a href="">
+               <h2>MEN</h2>
+            </a>
+         </div>
+         <div class="page6-card2"> <img src="./img/women.webp" alt="">
+            <a href="">
+               <h2>WOMEN</h2>
+            </a>
+         </div>
+         <div class="page6-card3"><img src="./img/kids.png" alt="">
+            <a href="">
+               <h2>WOMEN</h2>
+            </a>
+         </div>
+      </div>
+      <div id="page7">
+         <video src="./video/v1.mp4" preload="auto" autoplay="autoplay" loop=""></video>
+      </div>
+      <div id="page8">
+         <div class="txt1-page8">Recommendation For You</div>
+         <div class="txt2-page8">Style meets the pulse of fashion</div>
+         <div class="logo-page8"><img src="./img/Line-Design.svg" alt="" srcset=""></div>
+         <div class="page8-card">
+            <div class="card3-page8">
+               <img src="./img/Personalized.jpg" alt="">
+            </div>
+            <div class="card1-page8">
+
+               <img src="./img/Birthday.jpg" alt="">
+            </div>
+            <div class="card2-page8">
+               <img src="./img/anniversary.jpg" alt="">
+            </div>
+
+         </div>
+      </div>
+      <div id="page9">
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="footer-col">
+                     <h4>Company</h4>
+                     <ul>
+                        <li><a href='#'>about us</a></li>
+                        <li><a href='#'>our services</a></li>
+                        <li><a href='#'>privacy policy</a></li>
+                        <li><a href='#'>affiliate program</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Get Help</h4>
+                     <ul>
+                        <li><a href='#'>FAQ</a></li>
+                        <li><a href='#'>shipping</a></li>
+                        <li><a href='#'>returns</a></li>
+                        <li><a href='#'>order status</a></li>
+                        <li><a href='#'>payment options</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Online Shop</h4>
+                     <ul>
+                        <li><a href='#'>dresses</a></li>
+                        <li><a href='#'>jumpers & hoodies</a></li>
+                        <li><a href='#'>trousers</a></li>
+                        <li><a href='#'>sports & active wear</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-col">
+                     <h4>Follow Us</h4>
+                     <div class='social-icons'>
+                        <a href='#'><i class="ph ph-instagram-logo" style="font-size: 20px"></i></a>
+                        <a href='#'><i class="ph ph-pinterest-logo" style="font-size: 20px"></i></a>
+                        <a href='#'><i class="ph ph-linkedin-logo" style="font-size: 20px"></i></a>
+                        <a href='#'><i class="ph ph-youtube-logo" style="font-size: 20px"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js "></script>
+   <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+      integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js
+         "></script>
+   <script src="./script.js"></script>
+
+</body>
+
+</html>

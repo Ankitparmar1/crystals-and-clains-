@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./ban.css">
+</head>
+
+<body>
+   <div id="nav">
+      <div id="navleft">
+         <a class="span" href="../index.html">Home</a>
+         <a class="span" href="./Blog-section/blog.html">Shop</a>
+         <a class="span" href="../product5/pro5.html">Blog</a>
+      </div>
+      <div id="navcenter">
+         <img src="../img/logoimg.png" alt="" height="100%" width="100%">
+      </div>
+      <div id="navright">
+         <div class="div-heart">
+            <img src="../img/heart-fill.png" alt="" height="30px" width="30px">
+         </div>
+         <div class="div-cart">
+            <img src="../img/shopping-cart-2-line.png" alt="" height="30px" width="30px">
+         </div>
+         <div class="circle-div"><img src="../img/pngwing.com.png" alt="" height="40px" width="40px"></div>
+      </div>
+   </div>
+   <div class="side-catagroies">
+      <h1>Filters</h1>
+      <form>
+         <traction>
+            <h2>Price</h2>
+            <input type="number" id="price-min" placeholder="Min">
+            <input type="number" id="price-max" placeholder="Max">
+         </traction>
+         <traction>
+            <h2>Theme</h2>
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="checkbox" id="gods"> Gods
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="checkbox" type="checkbox" id="goddess">
+            Goddess
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="checkbox" type="checkbox"
+               id="gifting-coins"> Gifting Coins
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="checkbox" type="checkbox"
+               id="punched-coins"> Punched Coins
+         </traction>
+         <traction>
+            <h2>Weight</h2>
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="1g" name="weight"> 1 Gram
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               type="radio" id="2g" name="weight"> 2 Gram
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="5g" name="weight"> 5 Gram
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="10g" name="weight"> 10 Gram
+         </traction>
+         <traction>
+            <h2>Discount</h2>
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               type="radio" id="10p" name="discount"> 10% or more
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="20p" name="discount"> 20% or more
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="30p" name="discount"> 30% or
+            more
+         </traction>
+         <traction>
+            <h2>Customer Rating</h2>
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               type="radio" id="3star" name="rating"> 3★ & above
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="4star" name="rating"> 4 & above
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               type="radio" id="5star" name="rating"> 5★
+         </traction>
+         <traction>
+            <h2>Purity</h2>
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="24k" name="purity"> 24K Gold
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" style="height: 30px; width: 30px; margin-left: 70%;"
+               type="radio" id="22k" name="purity"> 22K Gold
+            <input style="height: 30px; width: 30px; margin-left: 70%;"
+               style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="20k" name="purity"> 20K Gold
+            <input style="height: 30px; width: 30px; margin-left: 70%;" type="radio" id="18k" name="purity"> 18K Gold
+         </traction>
+      </form>
+
+   </div>
+   <div id="page1">
+      <div class="txt-div1" style="font-size: 30px; position: absolute;margin-left: 1%;">Shop>Products>Bangles</div>
+      <div class="main-container-card-page3">
+         <div class="wrapper1">
+            <div class="cols">
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/61e8/8dd4/65c239336235df26f21852521f3eaf95?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KQ~9ieT-YU~yRCRhzBfH3rAMuvjqwJLUnv2lCG97uk1FnJ3~UqEbilYEHOEQQdi9kstMeJLcmxoPCsaZl7FQK2Mc7UkY~IN-q3jkwLKTYJ2GgA8W-2T3r3hWkcDcJf0motciXLwc9dkx7LRnftRAHoyjs-bdkXv0SgrzA4qz8diE4e7L7OOln5PiL2F73H03OfZxQpJpoelts3Qfsifu2ELb63R2RkHMUcFTHWpVNeDfTqd3wMRVDV4OP9q5FRYGrl0qGAS97LlLgZ8fggMkk2XMXOVvnOofAEgl5jrjCcarj~ik-L0kJlMNu2s3lKViL6sVcFBZEXjOYVUwKc9xwg__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+                     <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit .
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/b73f/bc5c/a303b94130627baa6a1f127201923c30?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YlhMJA-KSVKlEtMpyMoRRskpqSgikfMfz4emH-rz37Szylx4pvSD96e~tQvV27ukEZxSzH2ZD-6oJgupheAGZnNO~Ceeo0wrjzWhyRTbTP17YvykHFlGYStDegxpI0NZ4vq~002nOvpsegiNh3cD3ne0kZTUxjhDh6Gugf-SIlWKp6CoQtsWUmyUzyB5CVUVRj~YqEOC~RkD9eATGU-tqeJrr~HwgYG7y9gFmAAfX3n9~GR-KUionFWwE0NiTMTsN5ByG6U7Jurse~0e1Kg8s-pBhPMeh81ygE2ZzehidwsP6PzK~-IoHkjzaAe5L536JIo-r3Tbe9PD1yKzNAD~dg__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+               <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/91ac/a32d/13266d1a13a3a19c1fa3f617cd87c562?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W92~afLThe7gvwzOXFUwIgGssUEdT5Wakl0yXk9IR9CGuAY5cB4RRcASzgbd4UBwMoPNHhPbS88WVHsc3rF-qhsgprCIUVKl-zy2HOqAO7aGI-73JLJTFBBTm3CPflObadgu-0a6TTJpuZZV7pdoURBffCqXHN23ja9mn1CDHh-UmeC4jSa7oeCjqX-h8iplqRpr2c6ECx3hIWr4N2HYgdKE~R9BzQCOKEHq884D8Xuj5RtzyG23d8KFwKAkAv9ev13CAUl2MMHlElY4-GTOGxD~yzWtgniNlhi8DNyaeccqJyNIwMYgVGTUf-ytKCHz979jzzaHC-mjWLmE7b~t9w__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+               <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/ebbc/3c72/9ad1c24eb53ab3b0c9f59b76c9401f51?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pml-fZvU41eH2Vtic~0ZITlv4WalhP~qudAIsqh-8w-tlMNi10ZUci1hZKo7maULXMd8aFFMcURogpAUdXMmzgqFnbyKJkyJE9e2b0jMdjHuVXNF-fhD7dRxF16w2MJPGFQ-dsZYk-Cf4sXQuJpsYzREIsyvPBuGTrfAAruvlnLvTcUFpELOAKB~hsZb6pJwOi9H8hoY7dz3tc~VyBNsNMMUd8iuFXhug4JwFF4x0aX1MW6gaj4ji0OlJpSPCfezD6q8awfm1A~a7VKDzkUwhxfvT2epF2yxTX3xVOgfmUFPLsDIycFn4QJT0rsfAIpGIdV05MkR~jozmKDxMI7ooQ__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+               <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/61e8/8dd4/65c239336235df26f21852521f3eaf95?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KQ~9ieT-YU~yRCRhzBfH3rAMuvjqwJLUnv2lCG97uk1FnJ3~UqEbilYEHOEQQdi9kstMeJLcmxoPCsaZl7FQK2Mc7UkY~IN-q3jkwLKTYJ2GgA8W-2T3r3hWkcDcJf0motciXLwc9dkx7LRnftRAHoyjs-bdkXv0SgrzA4qz8diE4e7L7OOln5PiL2F73H03OfZxQpJpoelts3Qfsifu2ELb63R2RkHMUcFTHWpVNeDfTqd3wMRVDV4OP9q5FRYGrl0qGAS97LlLgZ8fggMkk2XMXOVvnOofAEgl5jrjCcarj~ik-L0kJlMNu2s3lKViL6sVcFBZEXjOYVUwKc9xwg__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/b73f/bc5c/a303b94130627baa6a1f127201923c30?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YlhMJA-KSVKlEtMpyMoRRskpqSgikfMfz4emH-rz37Szylx4pvSD96e~tQvV27ukEZxSzH2ZD-6oJgupheAGZnNO~Ceeo0wrjzWhyRTbTP17YvykHFlGYStDegxpI0NZ4vq~002nOvpsegiNh3cD3ne0kZTUxjhDh6Gugf-SIlWKp6CoQtsWUmyUzyB5CVUVRj~YqEOC~RkD9eATGU-tqeJrr~HwgYG7y9gFmAAfX3n9~GR-KUionFWwE0NiTMTsN5ByG6U7Jurse~0e1Kg8s-pBhPMeh81ygE2ZzehidwsP6PzK~-IoHkjzaAe5L536JIo-r3Tbe9PD1yKzNAD~dg__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+               <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/91ac/a32d/13266d1a13a3a19c1fa3f617cd87c562?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W92~afLThe7gvwzOXFUwIgGssUEdT5Wakl0yXk9IR9CGuAY5cB4RRcASzgbd4UBwMoPNHhPbS88WVHsc3rF-qhsgprCIUVKl-zy2HOqAO7aGI-73JLJTFBBTm3CPflObadgu-0a6TTJpuZZV7pdoURBffCqXHN23ja9mn1CDHh-UmeC4jSa7oeCjqX-h8iplqRpr2c6ECx3hIWr4N2HYgdKE~R9BzQCOKEHq884D8Xuj5RtzyG23d8KFwKAkAv9ev13CAUl2MMHlElY4-GTOGxD~yzWtgniNlhi8DNyaeccqJyNIwMYgVGTUf-ytKCHz979jzzaHC-mjWLmE7b~t9w__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/ebbc/3c72/9ad1c24eb53ab3b0c9f59b76c9401f51?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pml-fZvU41eH2Vtic~0ZITlv4WalhP~qudAIsqh-8w-tlMNi10ZUci1hZKo7maULXMd8aFFMcURogpAUdXMmzgqFnbyKJkyJE9e2b0jMdjHuVXNF-fhD7dRxF16w2MJPGFQ-dsZYk-Cf4sXQuJpsYzREIsyvPBuGTrfAAruvlnLvTcUFpELOAKB~hsZb6pJwOi9H8hoY7dz3tc~VyBNsNMMUd8iuFXhug4JwFF4x0aX1MW6gaj4ji0OlJpSPCfezD6q8awfm1A~a7VKDzkUwhxfvT2epF2yxTX3xVOgfmUFPLsDIycFn4QJT0rsfAIpGIdV05MkR~jozmKDxMI7ooQ__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+            <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/61e8/8dd4/65c239336235df26f21852521f3eaf95?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KQ~9ieT-YU~yRCRhzBfH3rAMuvjqwJLUnv2lCG97uk1FnJ3~UqEbilYEHOEQQdi9kstMeJLcmxoPCsaZl7FQK2Mc7UkY~IN-q3jkwLKTYJ2GgA8W-2T3r3hWkcDcJf0motciXLwc9dkx7LRnftRAHoyjs-bdkXv0SgrzA4qz8diE4e7L7OOln5PiL2F73H03OfZxQpJpoelts3Qfsifu2ELb63R2RkHMUcFTHWpVNeDfTqd3wMRVDV4OP9q5FRYGrl0qGAS97LlLgZ8fggMkk2XMXOVvnOofAEgl5jrjCcarj~ik-L0kJlMNu2s3lKViL6sVcFBZEXjOYVUwKc9xwg__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/b73f/bc5c/a303b94130627baa6a1f127201923c30?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YlhMJA-KSVKlEtMpyMoRRskpqSgikfMfz4emH-rz37Szylx4pvSD96e~tQvV27ukEZxSzH2ZD-6oJgupheAGZnNO~Ceeo0wrjzWhyRTbTP17YvykHFlGYStDegxpI0NZ4vq~002nOvpsegiNh3cD3ne0kZTUxjhDh6Gugf-SIlWKp6CoQtsWUmyUzyB5CVUVRj~YqEOC~RkD9eATGU-tqeJrr~HwgYG7y9gFmAAfX3n9~GR-KUionFWwE0NiTMTsN5ByG6U7Jurse~0e1Kg8s-pBhPMeh81ygE2ZzehidwsP6PzK~-IoHkjzaAe5L536JIo-r3Tbe9PD1yKzNAD~dg__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/91ac/a32d/13266d1a13a3a19c1fa3f617cd87c562?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W92~afLThe7gvwzOXFUwIgGssUEdT5Wakl0yXk9IR9CGuAY5cB4RRcASzgbd4UBwMoPNHhPbS88WVHsc3rF-qhsgprCIUVKl-zy2HOqAO7aGI-73JLJTFBBTm3CPflObadgu-0a6TTJpuZZV7pdoURBffCqXHN23ja9mn1CDHh-UmeC4jSa7oeCjqX-h8iplqRpr2c6ECx3hIWr4N2HYgdKE~R9BzQCOKEHq884D8Xuj5RtzyG23d8KFwKAkAv9ev13CAUl2MMHlElY4-GTOGxD~yzWtgniNlhi8DNyaeccqJyNIwMYgVGTUf-ytKCHz979jzzaHC-mjWLmE7b~t9w__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/ebbc/3c72/9ad1c24eb53ab3b0c9f59b76c9401f51?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pml-fZvU41eH2Vtic~0ZITlv4WalhP~qudAIsqh-8w-tlMNi10ZUci1hZKo7maULXMd8aFFMcURogpAUdXMmzgqFnbyKJkyJE9e2b0jMdjHuVXNF-fhD7dRxF16w2MJPGFQ-dsZYk-Cf4sXQuJpsYzREIsyvPBuGTrfAAruvlnLvTcUFpELOAKB~hsZb6pJwOi9H8hoY7dz3tc~VyBNsNMMUd8iuFXhug4JwFF4x0aX1MW6gaj4ji0OlJpSPCfezD6q8awfm1A~a7VKDzkUwhxfvT2epF2yxTX3xVOgfmUFPLsDIycFn4QJT0rsfAIpGIdV05MkR~jozmKDxMI7ooQ__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/61e8/8dd4/65c239336235df26f21852521f3eaf95?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KQ~9ieT-YU~yRCRhzBfH3rAMuvjqwJLUnv2lCG97uk1FnJ3~UqEbilYEHOEQQdi9kstMeJLcmxoPCsaZl7FQK2Mc7UkY~IN-q3jkwLKTYJ2GgA8W-2T3r3hWkcDcJf0motciXLwc9dkx7LRnftRAHoyjs-bdkXv0SgrzA4qz8diE4e7L7OOln5PiL2F73H03OfZxQpJpoelts3Qfsifu2ELb63R2RkHMUcFTHWpVNeDfTqd3wMRVDV4OP9q5FRYGrl0qGAS97LlLgZ8fggMkk2XMXOVvnOofAEgl5jrjCcarj~ik-L0kJlMNu2s3lKViL6sVcFBZEXjOYVUwKc9xwg__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+                  <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/b73f/bc5c/a303b94130627baa6a1f127201923c30?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YlhMJA-KSVKlEtMpyMoRRskpqSgikfMfz4emH-rz37Szylx4pvSD96e~tQvV27ukEZxSzH2ZD-6oJgupheAGZnNO~Ceeo0wrjzWhyRTbTP17YvykHFlGYStDegxpI0NZ4vq~002nOvpsegiNh3cD3ne0kZTUxjhDh6Gugf-SIlWKp6CoQtsWUmyUzyB5CVUVRj~YqEOC~RkD9eATGU-tqeJrr~HwgYG7y9gFmAAfX3n9~GR-KUionFWwE0NiTMTsN5ByG6U7Jurse~0e1Kg8s-pBhPMeh81ygE2ZzehidwsP6PzK~-IoHkjzaAe5L536JIo-r3Tbe9PD1yKzNAD~dg__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+         <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/91ac/a32d/13266d1a13a3a19c1fa3f617cd87c562?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W92~afLThe7gvwzOXFUwIgGssUEdT5Wakl0yXk9IR9CGuAY5cB4RRcASzgbd4UBwMoPNHhPbS88WVHsc3rF-qhsgprCIUVKl-zy2HOqAO7aGI-73JLJTFBBTm3CPflObadgu-0a6TTJpuZZV7pdoURBffCqXHN23ja9mn1CDHh-UmeC4jSa7oeCjqX-h8iplqRpr2c6ECx3hIWr4N2HYgdKE~R9BzQCOKEHq884D8Xuj5RtzyG23d8KFwKAkAv9ev13CAUl2MMHlElY4-GTOGxD~yzWtgniNlhi8DNyaeccqJyNIwMYgVGTUf-ytKCHz979jzzaHC-mjWLmE7b~t9w__)">
+                        <div class="inner">
+                        </div>
+                     </div>
+      <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="col" ontouchstart="this.classList.toggle('hover');">
+                  <div class="container">
+                     <div class="front"
+                        style="background-image: url(https://s3-alpha-sig.figma.com/img/ebbc/3c72/9ad1c24eb53ab3b0c9f59b76c9401f51?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pml-fZvU41eH2Vtic~0ZITlv4WalhP~qudAIsqh-8w-tlMNi10ZUci1hZKo7maULXMd8aFFMcURogpAUdXMmzgqFnbyKJkyJE9e2b0jMdjHuVXNF-fhD7dRxF16w2MJPGFQ-dsZYk-Cf4sXQuJpsYzREIsyvPBuGTrfAAruvlnLvTcUFpELOAKB~hsZb6pJwOi9H8hoY7dz3tc~VyBNsNMMUd8iuFXhug4JwFF4x0aX1MW6gaj4ji0OlJpSPCfezD6q8awfm1A~a7VKDzkUwhxfvT2epF2yxTX3xVOgfmUFPLsDIycFn4QJT0rsfAIpGIdV05MkR~jozmKDxMI7ooQ__)">
+                        <div class="inner">
+
+                        </div>
+                     </div>
+               <a href="../buy-cards/index.html"><button>Rs. 7500 <br>30% off</button></a>
+                     <div class="back">
+                        <div class="inner">
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                              c.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="page-scroller"><a style="display: flex; align-items: center;justify-content: center; font-size: 30px; color: white;"> Scroller on top</a></div>
+   <scroller style="padding:12px 60px;position: absolute; margin-left: 53%; margin-top: -6%; font-size: 2vw; text-decoration: none; color: black; ">
+      <a style=" text-decoration: none; color: black; " href="../Neclace/nec.html"> 1</a>
+      <a style=" text-decoration: none; color: black; " href="../Ocatinal /oco.html"> 2</a>
+      <a style=" text-decoration: none; color: black; " href="../product4/pro.html"> 3</a>
+      <a style=" text-decoration: none; color: black; " href="../product01/pro1.html"> 4</a>
+   </scroller>
+   <div id="page9">
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="footer-col">
+                  <h4>Company</h4>
+                  <ul>
+                     <li><a href='#'>about us</a></li>
+                     <li><a href='#'>our services</a></li>
+                     <li><a href='#'>privacy policy</a></li>
+                     <li><a href='#'>affiliate program</a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Get Help</h4>
+                  <ul>
+                     <li><a href='#'>FAQ</a></li>
+                     <li><a href='#'>shipping</a></li>
+                     <li><a href='#'>returns</a></li>
+                     <li><a href='#'>order status</a></li>
+                     <li><a href='#'>payment options</a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Online Shop</h4>
+                  <ul>
+                     <li><a href='#'>dresses</a></li>
+                     <li><a href='#'>jumpers & hoodies</a></li>
+                     <li><a href='#'>trousers</a></li>
+                     <li><a href='#'>sports & active wear</a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Follow Us</h4>
+                  <div class='social-icons'>
+                     <a href='#'><i class="ph ph-instagram-logo" style="font-size: 20px"></i></a>
+                     <a href='#'><i class="ph ph-pinterest-logo" style="font-size: 20px"></i></a>
+                     <a href='#'><i class="ph ph-linkedin-logo" style="font-size: 20px"></i></a>
+                     <a href='#'><i class="ph ph-youtube-logo" style="font-size: 20px"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./ban.js"></script>
+</body>
+
+</html>
